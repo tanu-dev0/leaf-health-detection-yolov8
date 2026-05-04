@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['healthy', 'unhealthy']
+
+roboflow:
+  workspace: tanus-workspace-sikpq
+  project: leafy-btij6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tanus-workspace-sikpq/leafy-btij6/dataset/1
